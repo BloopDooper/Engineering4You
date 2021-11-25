@@ -1,0 +1,17 @@
+#coursebutton {
+    width: 5%;
+    height: auto;
+}
+
+#coursebutton:hover {
+    animation: coursebuttonspin 3s infinite ease-in-out;
+}
+
+@keyframes coursebuttonspin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(720deg);
+    }
+}
