@@ -1,6 +1,10 @@
 #settingsbutton {
-    width: 5%;
+    width: 3%;
     height: auto;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 25px;
 }
 
 #settingsbutton:hover {
@@ -14,4 +18,63 @@
     100% {
         transform: rotate(720deg);
     }
+}
+
+#coursebutton {
+    float: left;
+    padding-left: 100px;
+    transform: translateY(-75px);
+}
+
+#homebutton {
+    text-align: center;
+}
+
+.search-box{
+    position: absolute;
+    background: #2ecc71;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    transform: translate(300px, -65px);
+}
+
+.search-btn{
+    color: #3498db;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: white;
+}
+
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    transition: 0.4s;
+}
+
+.search-txt::placeholder {
+    color: white;
 }
