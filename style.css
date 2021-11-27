@@ -1,13 +1,13 @@
-#coursebutton {
+#settingsbutton {
     width: 5%;
     height: auto;
 }
 
-#coursebutton:hover {
-    animation: coursebuttonspin 3s infinite ease-in-out;
+#settingsbutton:hover {
+    animation: settingsbuttonspin 3s infinite ease-in-out;
 }
 
-@keyframes coursebuttonspin {
+@keyframes settingsbuttonspin {
     0% {
         transform: rotate(0deg);
     }
